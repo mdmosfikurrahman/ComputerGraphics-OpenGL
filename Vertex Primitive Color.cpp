@@ -76,7 +76,8 @@ int main(int argc, char** argv) {
 	
     glutDisplayFunc(display); // Register callback handler for window re-paint event
     initGL(); // Our own OpenGL initialization
+	
 	glutMainLoop(); // Enter the event-processing loop
-    
+	
 	return 0;
 }
